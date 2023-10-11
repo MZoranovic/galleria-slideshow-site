@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 1400px;
+    margin: auto;
+}
+
+.intro img {
+    width: 200px;
+}
+
+.image {
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image>div {
+    position: relative;
+}
+
+.galleryContent {
+    position: absolute;
+    bottom: 2rem;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.small {
+    height: 250px;
+}
+
+.extra {
+    height: 310px;
+}
+
+.medium {
+    height: 340px;
+}
+
+.medium-rare {
+    height: 380px;
+}
+
+.high {
+    height: 420px;
+}
+
+.large {
+    height: 445px;
+}

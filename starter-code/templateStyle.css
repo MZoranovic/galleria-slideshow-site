@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&family=Libre+Baskerville&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 1440px;
+    margin: auto;
+
+}
+
+.intro img {
+    width: 200px;
+}
+
+h5 {
+    color: #7D7D7D;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    /* height: 624px; */
+    grid-column: span 4;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.thumbnail {
+    width: 475px;
+    height: 560px;
+    position: relative;
+}
+
+.artist {
+    width: 128px;
+    align-self: end;
+    margin-left: 30px;
+    position: relative;
+    top: 50px;
+
+}
+
+.rectangle {
+    width: 445px;
+    height: 238px;
+    background-color: white;
+    position: absolute;
+    margin-left: 400px;
+}
+
+h1 {
+    font-size: 56px;
+    width: 400px;
+    padding-left: 3rem;
+}
+
+h4 {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    color: #7D7D7D;
+}
+
+.description {
+    position: relative;
+    top: 100px;
+}
+
+p {
+    width: 350px;
+    align-self: center;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    color: #7D7D7D;
+    position: relative;
+    line-height: 28px;
+}
+
+a {
+    align-self: end;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.92857px;
+    position: relative;
+    top: 50px;
+    text-decoration-line: underline;
+}
+
+h2 {
+    position: relative;
+    font-size: 180px;
+    font-weight: 700;
+    color: #F3F3F3;
+    left: 400px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 0.5rem;
+    align-self: end;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    display: flex;
+    width: 130px;
+    cursor: pointer;
+}
+
+button img {
+    width: 12px;
+}
+
+
+h6 {
+    font-size: 15px;
+    font-family: Libre Baskerville;
+}
+
+span {
+    font-size: 10px;
+    font-family: Libre Baskerville;
+    letter-spacing: 2px;
+    margin-left: 6px;
+}
+
+#gallery-modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0 0 0 /85%);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery-modal img {
+    max-width: 1440px;
+    width: 100%;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 91px;
+    cursor: pointer;
+}
+
+.imgLarge {
+    width: 300px;
+    height: 200px;
+}
